@@ -1,0 +1,81 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff4b2b, #ff416c); /* Degradado de rojo a azul */
+    color: #ffffff; /* Color de texto blanco para contraste */
+}
+
+header {
+    background: rgba(255, 255, 255, 0.2); /* Fondo blanco semi-transparente */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+    border-bottom: 4px solid #ffffff; /* Línea blanca en la parte inferior */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.3); /* Fondo negro semi-transparente */
+    border-radius: 10px;
+}
+
+/* Estilo del selector de equipo */
+.team-selector {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #ffffff; /* Texto blanco */
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff; /* Borde blanco */
+    background-color: #ff416c; /* Fondo rojo */
+    font-size: 1em;
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Estilo de la información del equipo */
+.team-info {
+    border: 2px solid #ffffff; /* Borde blanco */
+    padding: 20px;
+    background-color: #000000; /* Fondo negro */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra más fuerte */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para efecto hover */
+}
+
+.team-info:hover {
+    transform: scale(1.02); /* Efecto de escalado */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra más intensa en hover */
+}
+
+.team-info img {
+    max-width: 200px; /* Aumento del tamaño del logo */
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #ffffff; /* Títulos en blanco */
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ffffff; /* Texto en blanco */
+    margin-bottom: 10px;
+}

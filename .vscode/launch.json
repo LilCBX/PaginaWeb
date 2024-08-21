@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "c:\\Users\\loffi\\OneDrive\\Escritorio\\Universidad 2024\\Programacion 2\\Modulo 2\\NBA teams\\index.html"
+        }
+    ]
+}

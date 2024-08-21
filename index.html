@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Equipos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Información de Equipos de la NBA</h1>
+    </header>
+
+    <main>
+        <div class="team-selector">
+            <label for="team-select">Selecciona un equipo:</label>
+            <select id="team-select" onchange="showTeamInfo()">
+                <option value="">--Selecciona un equipo--</option>
+                <option value="lakers">Los Angeles Lakers</option>
+                <option value="warriors">Golden State Warriors</option>
+                <option value="bulls">Chicago Bulls</option>
+                <option value="celtics">Boston Celtics</option>
+                <option value="heat">Miami Heat</option>
+                <option value="nets">Brooklyn Nets</option>
+                <option value="bucks">Milwaukee Bucks</option>
+                <option value="raptors">Toronto Raptors</option>
+                <option value="mavericks">Dallas Mavericks</option>
+                <option value="76ers">Philadelphia 76ers</option>
+                <!-- Agrega aquí los demás equipos según sea necesario -->
+            </select>
+        </div>
+
+        <div id="team-info" class="team-info">
+            <p>Selecciona un equipo para ver la información.</p>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
